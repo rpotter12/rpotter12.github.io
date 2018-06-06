@@ -7,6 +7,31 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
+<!-- script for slideshow -->
+<script type="text/javascript">
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+  
+
+
+
+
 <!-- Favicons
     ================================================== -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -251,21 +276,26 @@
   </div>
 </div>
 <!-- Certificates Section -->
-<div id="certificates" class="text-center">
+<div id="certificates" class="carousel slide">
   <div class="container">
     <div class="section-title center">
-      <h2>Certificates</h2>
+      <h2 align="center">Certificates</h2>
       <hr>
     </div>
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="row testimonials">
-          
-        </div>
-      </div>
-    </div>
-  </div>
+   
+    <!-- Indicators -->
+    <img class="mySlides" src="img/UC-AA50ZCJC.jpg" style="width: 100%; height:600px; margin: auto;">
+	<img class="mySlides" src="img/UC-E36N5WO4.jpg" style="width: 100%; height:600px; margin: auto;">
+
+    <!-- buttons for slides -->
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)" align="middle">&#10094;</button>
+	<button class="w3-button w3-display-right" onclick="plusDivs(+1)" align="middle">&#10095;</button> 
+
+    
+    
+	</div>
 </div>
+
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="overlay">
