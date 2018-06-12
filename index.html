@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rohit Potter</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- script for slideshow -->
+<script type="text/javascript">
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script>
+  
+
+
+
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Header -->
+
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#about">About</a> </li>
+          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="#links">Links</a> </li>
+          <li> <a class="page-scroll" href="#certificates">Certificates</a> </li>
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <p>My name is <b>Rohit Potter</b>. I am a 20 year old programmer and freshman. Love to coding make spend much of my time on coding.</p>
+          <p>I have started coding from the age of 18. I am a github programmer and a competitive programmer. I love to code in "C", "C++", "JAVA" and "PYTHON". I am a two star rated codechef programmer. I have a good knowledge of programming in JAVA.</p>
+          <p>I am working on some projects like <a href="https://github.com/rpotter12/bakers">bakers</a>, <a href="https://github.com/rpotter12/claver">claver</a> etc. Bakers is an android application to buy and sell bakery items of nearby bakery. Claver is github users chatting app for pc and android.</p>
+          <p>I have knowledge of some other languages like HTML, CSS, JAVASCRIPT, PHP. I have done web development for college project named <a href="https://github.com/rpotter12/atm_system">atm system</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Skills</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>C</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>C++</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>JAVA</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>PYTHON</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>HTML</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>CSS</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>JAVASCRIPT</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill">
+        <h4>PHP</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Portfolio</h2>
+      <hr>
+    </div>
+    <p align="center">Working</p>
+  </div>
+</div>
+<!-- Links Section -->
+<div id="links" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>LINKS</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
+        <div class="achievement-box">
+          <h4><img src="img/icon/github.png" style="height: 50px; width: 50px;"><a href="https://github.com/rpotter12"> GitHub</a></h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
+        <div class="achievement-box">
+          <h4><img src="img/icon/stack.png" style="height: 50px; width: 50px;"><a href="https://stackoverflow.com/users/9380990/rohit-potter?tab=profile"> Stackoverflow</a></h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
+        <div class="achievement-box">
+          <h4><img src="img/icon/linkedin.png" style="height: 50px; width: 50px;"><a href="https://www.linkedin.com/in/rohit-potter-216473150"> LinkedIn</a></h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
+        <div class="achievement-box">
+          <h4><img src="img/icon/codechef.png" style="height: 50px; width: 50px;"><a href="https://www.codechef.com/users/rohitpotter12"> codechef</a></h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
+        <div class="achievement-box">
+          <h4><img src="img/icon/hackerrank.jpg" style="height: 50px; width: 50px;"><a href="https://www.hackerrank.com/rohitpotter12"> Hackerrank</a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Certificates Section -->
+<div id="certificates" class="carousel slide">
+  <div class="container">
+    <div class="section-title center">
+      <h2 align="center">Certificates</h2>
+      <hr>
+    </div>
+   
+    <!-- Indicators -->
+    <img class="mySlides" src="img/UC-AA50ZCJC.jpg" style="width: 100%; height:600px; margin: auto;">
+	<img class="mySlides" src="img/UC-E36N5WO4.jpg" style="width: 100%; height:600px; margin: auto;">
+
+    <!-- buttons for slides -->
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)" align="middle">&#10094;</button>
+	<button class="w3-button w3-display-right" onclick="plusDivs(+1)" align="middle">&#10095;</button> 
+
+    
+    
+	</div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Contact</h2>
+        <hr>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <p>Email ID: rohitpotter12@gmail.com</p><br><br>
+        <p>Whatsapp Number: 8561991751</p><br><br>
+        Be free to message me. I will try to reply as soon as possible.<br><br>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2018 Rohit Potter. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
