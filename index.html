@@ -27,10 +27,13 @@ function showDivs(n) {
     x[slideIndex-1].style.display = "block"; 
 }
 </script>
-  
 
-
-
+<style type="text/css">
+	#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+</style>
 
 <!-- Favicons
     ================================================== -->
@@ -78,7 +81,7 @@ function showDivs(n) {
           <li> <a class="page-scroll" href="#about">About</a> </li>
           <li> <a class="page-scroll" href="#skills">Skills</a> </li>
           <li> <a class="page-scroll" href="#portfolio">Links</a> </li>
-          <li> <a class="page-scroll" href="#links">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="#links">Events Attended</a> </li>
           <li> <a class="page-scroll" href="#certificates">Certificates</a> </li>
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
@@ -194,10 +197,21 @@ function showDivs(n) {
 <div id="links" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>PORTFOLIO</h2>
+      <h2>Events Attended</h2>
       <hr>
     </div>
-    <p align="center"><b>Working</b></p>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of hyderabad
+  var hyderabad = {lat: 17.387140, lng: 78.491684};
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: hyderabad, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLR7NV3lmiUo5Z_na1rP7tEA6GlGoy-AI&callback=initMap">
+    </script>
   </div>
 </div>
 <!-- Certificates Section -->
