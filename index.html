@@ -201,13 +201,17 @@ function showDivs(n) {
       <hr>
     </div>
     <script>
-// Initialize and add the map
-function initMap() {
-  // The location of hyderabad
-  var hyderabad = {lat: 17.387140, lng: 78.491684};
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: hyderabad, map: map});
-}
+		// Initialize and add the map
+		function initMap() 
+		{
+			// The location of hyderabad
+  			var hyderabad = {lat: 17.387140, lng: 78.491684};
+  			// The map, centered at Uluru
+  			var map = new google.maps.Map(
+      			document.getElementById('map'), {zoom: 4, center: hyderabad});
+  			// The marker, positioned at Uluru
+  			var marker = new google.maps.Marker({position: hyderabad, map: map});
+		}
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLR7NV3lmiUo5Z_na1rP7tEA6GlGoy-AI&callback=initMap">
