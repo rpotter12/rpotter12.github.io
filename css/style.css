@@ -228,6 +228,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 }
 #about .about-text {
 	margin-left: 10px;
+	border: 1px solid purple ;
 }
 #about img {
 	float: right;
