@@ -1,22 +1,27 @@
-.name {
-	text-align: center;
-	margin-top: 125px;
-	font-family: "Zapf Chancery", cursive;
+.header {
+  background: #061D25;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
-.details {
-	margin-top: 100px;
-	margin-left: 200px;
-}
-.images img {
-	height: 150px;
-	width: 150px;
-	float: left;
-	margin-left: 20px;
+.header a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
   transition: all .5s ease;
 }
-.images img:hover {
-	border: solid;
-	color: #061D25;
+.header a:hover {
+  color: white;
+}
+.blogs {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.blogging {
+
 }
 .footer {
   background: #061D25;
