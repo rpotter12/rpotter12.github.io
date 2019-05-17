@@ -17,6 +17,9 @@
 .header a:hover {
   color: white;
 }
+.skills {
+  margin-left: 200px;
+}
 .footer {
   float: left;
   background: #061D25;
