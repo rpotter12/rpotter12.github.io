@@ -6,7 +6,6 @@
   top: 0;
   width: 100%;
   float: left;
-  height: auto;
 }
 .header a {
   color: #70726F;
@@ -19,17 +18,11 @@
   color: white;
 }
 .skills {
-  float: left;
   margin-left: 200px;
-  
 }
-ul {
-  float: left;
+.language {
+  margin-left: 20px;
 }
-li {
-  margin-top: 30px;
-  float: left;
-} 
 .footer {
   float: left;
   background: #061D25;

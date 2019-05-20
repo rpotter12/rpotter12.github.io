@@ -1,7 +1,7 @@
 .name {
 	text-align: center;
 	margin-top: 125px;
-	font-family: "Zapf Chancery", cursive;
+	font-family: "Courier New", monospace;
 }
 .details {
 	margin-top: 100px;
@@ -12,11 +12,13 @@
 	width: 150px;
 	float: left;
 	margin-left: 20px;
-  transition: all .5s ease;
+  transition: all 1.5s ease;
+  border-radius: 10px 10px 10px 10px;
 }
 .images img:hover {
 	border: solid;
 	color: #061D25;
+  transform: scale(1.5);
 }
 .footer {
   background: #061D25;
