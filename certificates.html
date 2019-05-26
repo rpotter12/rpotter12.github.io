@@ -2,77 +2,71 @@
 <html>
 <head>
 	<title>Certificates</title>
-</head>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style/css/certificates.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.js"></script>
+<script type="text/javascript" src="style/js/certificates.js"></script>
+</head>
 <body>
 	<!-- header section -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<header class="header">
+	<div class="header fixed-top">
 		<div class="container">
 			<a href="index.html"><i class="fas fa-home"></i></a>
 		</div>
-	</header>
-
-	<!-- certificates -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  	<!-- Indicators -->
-  		<ol class="carousel-indicators">
-    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    		<li data-target="#myCarousel" data-slide-to="1"></li>
-    		<li data-target="#myCarousel" data-slide-to="2"></li>
-    		<li data-target="#myCarousel" data-slide-to="3"></li>
-    		<li data-target="#myCarousel" data-slide-to="4"></li>
-    		<li data-target="#myCarousel" data-slide-to="5"></li>
-    		<li data-target="#myCarousel" data-slide-to="6"></li>
-    		<li data-target="#myCarousel" data-slide-to="7"></li>
-    		<li data-target="#myCarousel" data-slide-to="8"></li>
-  		</ol>
-
-  		<!-- Wrapper for slides -->
-  		<div class="carousel-inner">
-    		<div class="item active">
-    	 		<img src="images/GCI.png">
-	    	</div>
-	    	<div class="item">
-	      		<img src="images/GDG.png">
-	    	</div>
-	    	<div class="item">
-	      		<img src="images/fossasia.png">
-	    	</div>
-	    	<div class="item">
-	      		<img src="images/UC-1G5FOBSF.jpg">
-	    	</div>
-	    	<div class="item">
-	      		<img src="images/UC-AA50ZCJC.jpg">
-	    	</div>
-	    	<div class="item">
-	      		<img src="images/UC-E36N5WO4.jpg">
-	    	</div>
-	    	<div class="item">
-	      		<img src="images/UC-QDUVH5J8.jpg">
-	    	</div>
-	    	<div class="item">
-	      		<img src="images/UC-RX76T0IV.jpg">
-	    	</div>
-  		</div>
-
-  		<!-- Left and right controls -->
-  		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    		<span class="glyphicon glyphicon-chevron-left"></span>
-    		<span class="sr-only">Previous</span>
-  		</a>
-  		<a class="right carousel-control" href="#myCarousel" data-slide="next">
-    		<span class="glyphicon glyphicon-chevron-right"></span>
-    		<span class="sr-only">Next</span>
-  		</a>
 	</div>
 
+	<!-- certificates -->
+	<!--Carousel Wrapper-->
+	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+	  <!--Indicators-->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+	  </ol>
+	  <!--/.Indicators-->
+	  <!--Slides-->
+	  <div class="carousel-inner" role="listbox">
+	    <!--First slide-->
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="GCI.png"
+	        alt="First slide">
+	    </div>
+	    <!--/First slide-->
+	    <!--Second slide-->
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="GDG.jpg"
+	        alt="Second slide">
+	    </div>
+	    <!--/Second slide-->
+	    <!--Third slide-->
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="fossasia.png"
+	        alt="Third slide">
+	    </div>
+	    <!--/Third slide-->
+	  </div>
+	  <!--/.Slides-->
+	  <!--Controls-->
+	  <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	  <!--/.Controls-->
+	</div>
+<!--/.Carousel Wrapper-->
+	
 	<!-- footer section -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-	<footer class="footer">
+	<div class="footer fixed-bottom">
 	  	<div class="container text-center">
 		    <a href="https://github.com/rpotter12"><i class="fab fa-github"></i></a>
 		    <a href="https://www.facebook.com/rohit.potter.10"><i class="fab fa-facebook"></i></a>
@@ -83,6 +77,6 @@
 		    <a href="https://www.instagram.com/rohitpotter_12/"><i class="fab fa-instagram"></i></a>
 		    <a href="https://www.hackerrank.com/rohitpotter12"><i class="fab fa-hackerrank"></i></a>
 	  	</div>
-	</footer>
+	</div>
 </body>
 </html>
