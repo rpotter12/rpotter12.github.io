@@ -17,11 +17,17 @@
   color: white;
 }
 .blogs {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 60px;
+  text-align: justify-all;
 }
-.blogging {
-
+.blog {
+  border-style: solid;
+  color: #061D25;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 0;
+}
+.blog a {
+  text-decoration: none;
 }
 .footer {
   background: #061D25;
