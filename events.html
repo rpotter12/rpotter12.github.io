@@ -3,7 +3,7 @@
 <head>
 	<title>Events</title>
 </head>
-<link rel="stylesheet" type="text/css" href="style/css/about.css">
+<link rel="stylesheet" type="text/css" href="style/css/events.css">
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -18,12 +18,47 @@
 		</div>
 	</div>
 
-	<!-- blogs -->
-	<div class="events">
-		<div class="map">
-			<a href="#"></a>
-		</div>
-	</div>
+	<!-- events -->
+    <div id="map"></div> 
+    <script> 
+      function initMap() { 
+        var hyderabad = {lat: 17.387140, lng: 78.491684};
+        var singapore = {lat: 1.290270, lng: 103.851959};
+        var lpu = {lat: 31.224020, lng: 75.770798};
+        var cu = {lat: 30.741482, lng: 76.768066};
+        var iitdelhi = {lat: 28.644800, lng: 77.216721};
+        var map = new google.maps.Map(document.getElementById('map'), { 
+          zoom: 4, 
+          center: hyderabad
+        }); 
+        var marker = new google.maps.Marker({ 
+          position: hyderabad, 
+          map: map 
+        }); 
+        var marker1 = new google.maps.Marker({ 
+          position: singapore, 
+          map: map 
+        }); 
+        var marker2 = new google.maps.Marker({ 
+          position: lpu, 
+          map: map 
+        }); 
+        var marker3 = new google.maps.Marker({ 
+          position: cu, 
+          map: map 
+        }); 
+        var marker4 = new google.maps.Marker({ 
+          position: iitdelhi, 
+          map: map 
+        }); 
+      } 
+    </script> 
+    <script async defer 
+			    src= 
+			"https://maps.googleapis.com/maps/api/js?key= 
+			AIzaSyBUjtUWzjNHY7RGwZw6rsoAau49XDTpfJI&callback=initMap"> 
+    </script> 
+
 
 	<!-- footer section -->
 	<div class="footer">
