@@ -1,4 +1,4 @@
-# How to start using GitHub
+# How to start working on others project on GitHub
 (Publish date: 22 June 2019)<br><br>
 
 ## About GitHub
